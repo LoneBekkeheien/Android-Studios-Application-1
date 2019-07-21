@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="pt.simov.pl4">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Wish List App"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name=".LogInActivity"
+            android:label="LogInActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DetailsActivity"
+            android:label="@string/title_activity_details" />
+        <activity
+            android:name=".AddActivity"
+            android:label="Add" />
+        <activity android:name=".SearchActivity" />
+        <activity android:name=".DeleteActivity" />
+        <activity android:name=".EditActivity" />
+        <activity
+            android:name=".Main2Activity"
+            android:label="Wish list" />
+        <activity
+            android:name=".MainActivity"
+            android:label="Friends list" />
+        <activity
+            android:name=".Home"
+            android:label="Wish List App" />
+        <activity
+            android:name=".SignUpActivity"
+            android:label="Sign Up" />
+        <activity
+            android:name=".MyWishList"
+            android:label="@string/title_activity_my_wish_list" />
+        <activity
+            android:name=".SetUp"
+            android:label="@string/title_activity_set_up"></activity>
+    </application>
+
+</manifest>
